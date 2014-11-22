@@ -6,6 +6,7 @@ Messageboard::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'controller_name#action_name'
   root 'home#homepage'
+  get '/goodbye' => 'home#goodbye'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
